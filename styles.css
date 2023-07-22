@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
 :root {
-  --navbar-gray: rgba(70, 66, 66, 0.797);
+  --navbar-gray: rgb(54, 50, 50);
   --fontwhite: #f5f4f4;
   --fifa-dark-purple: #5c1a19;
   --fifa-light-purple: #a52218;
@@ -24,14 +24,6 @@
   font-family: "Poppins", "Montserrat", "sans-serif";
 }
 
-.header {
-  background: linear-gradient(
-    var(--fifa-light-purple),
-    var(--fifa-dark-purple)
-  );
-  background-size: cover;
-}
-
 .content-top {
   display: flex;
   align-items: center;
@@ -39,6 +31,11 @@
   width: 100%;
   height: 90px;
   gap: 2rem;
+  background: linear-gradient(
+    var(--fifa-dark-purple),
+    var(--fifa-light-purple)
+  );
+  background-size: cover;
 }
 
 .content-top__logo {
@@ -67,11 +64,10 @@
   justify-content: space-between;
   padding: 0 2rem;
   height: 50px;
-  background-color: var(--navbar-gray);
+  background: var(--navbar-gray);
   -webkit-position: sticky;
   position: sticky;
   top: 0;
-  z-index: 99;
 }
 
 .navbar__title {
