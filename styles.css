@@ -2,7 +2,16 @@
 
 :root {
   --navbar-gray: rgba(70, 66, 66, 0.797);
-  --fontwhite: rgb(227, 227, 227);
+  --fontwhite: #f5f4f4;
+  --fifa-dark-purple: #5c1a19;
+  --fifa-light-purple: #a52218;
+  --fifa-lilac: rgb(144, 123, 219);
+  --fifa-blue: rgb(46, 72, 215);
+  --fifa-orange: rgb(201, 68, 33);
+  --fifa-green: rgb(161, 198, 63);
+  --fifa-violet: rgb(75, 28, 197);
+  --fifa-aqua: rgb(123, 215, 195);
+  --fifa-dark-green: rgb(27, 69, 60);
 }
 
 * {
@@ -11,8 +20,16 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  border: red solid 1px;
+  /* border: red solid 1px; */
   font-family: "Poppins", "Montserrat", "sans-serif";
+}
+
+.header {
+  background: linear-gradient(
+    var(--fifa-light-purple),
+    var(--fifa-dark-purple)
+  );
+  background-size: cover;
 }
 
 .content-top {
@@ -33,6 +50,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: var(--fontwhite);
 }
 
 .content-top__info h2 {
@@ -50,6 +68,10 @@
   padding: 0 2rem;
   height: 50px;
   background-color: var(--navbar-gray);
+  -webkit-position: sticky;
+  position: sticky;
+  top: 0;
+  z-index: 99;
 }
 
 .navbar__title {
@@ -70,7 +92,6 @@
 .navbar__list {
   display: flex;
   align-items: center;
-  /* justify-content: space-around; */
   gap: 1rem;
 }
 
@@ -78,6 +99,6 @@
   color: var(--fontwhite);
 }
 
-.navbar__list--icon li a {
-  font-size: 12rem;
+.hero {
+  height: 1200px;
 }
