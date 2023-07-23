@@ -225,3 +225,96 @@ body {
   justify-content: center;
   gap: 1rem;
 }
+
+#pool {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%234a4747' fill-opacity='0.79' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+  padding: 1rem 0;
+}
+
+#pool h2 {
+  color: var(--fontwhite);
+  font-size: 2rem;
+}
+
+.pool__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.pool__container__card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 0 1rem 0 1rem;
+  width: 270px;
+  background-color: var(--fifa-blue);
+}
+
+.pool__container__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+  color: var(--fontwhite);
+}
+
+.pool__container__title p {
+  font-size: 10px;
+}
+
+.pool__container__data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 1rem;
+  font-size: 1rem;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23363232' fill-opacity='0.18' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+  padding: 0.5rem;
+  border-radius: 0 0 0 1rem;
+}
+
+.data__teams {
+  padding: 1rem;
+  width: 70%;
+}
+
+.data__team ul li {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.5rem;
+}
+
+.data__stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 30%;
+}
+
+.data__stats ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stats--top {
+  font-weight: 700;
+}
+
+.pool-flag {
+  width: 25px;
+  border-radius: 5px;
+}
