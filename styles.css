@@ -26,6 +26,11 @@
   font-family: "Poppins", "Montserrat", "sans-serif";
 }
 
+body {
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23363232' fill-opacity='0.18' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -104,14 +109,21 @@
   color: var(--fontwhite);
 }
 
-.hero {
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#hero {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  max-width: 1500px;
   width: 100%;
   height: 500px;
   background: linear-gradient(
-    to right,
     var(--fifa-logo-dark-blue),
     var(--fifa-logo-light-blue)
   );
@@ -126,7 +138,6 @@
 
 .hero__container {
   display: flex;
-  /* width: 100%; */
   justify-content: center;
   gap: 2rem;
   padding: 0 8rem;
@@ -144,6 +155,7 @@
 
 .container__info h1 {
   font-size: 3rem;
+  color: var(--fontwhite);
 }
 
 .container__info h1 span {
@@ -176,4 +188,40 @@
 
 .sponsors__logo {
   height: 40px;
+}
+
+#about-us {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1500px;
+  padding: 1rem 3rem;
+  gap: 3rem;
+}
+
+.about-us__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.about-us__container__pride {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pride_logo {
+  height: 250px;
+  border-radius: 1rem;
+}
+
+.about-us__container__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
