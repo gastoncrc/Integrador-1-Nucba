@@ -78,7 +78,7 @@ body {
   width: 100%;
   height: 50px;
   background: var(--navbar-gray);
-  background: linear-gradient(var(--navbar-gray), rgba(54, 50, 50, 0.876));
+  background: linear-gradient(var(--fifa-green), var(--fifa-dark-green));
   -webkit-position: sticky;
   position: sticky;
   top: 0;
@@ -317,4 +317,46 @@ body {
 .pool-flag {
   width: 25px;
   border-radius: 5px;
+}
+
+#cities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cities__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  /* background-color: aqua; */
+  padding: 1rem;
+}
+
+.cities__container__country {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 500px;
+  background-color: #5c1a19;
+  border-radius: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.country-fg {
+  height: 50%;
+}
+
+.cities__container__country h3 {
+  height: 50%;
+  font-size: 10rem;
+  color: transparent;
+  background-image: url(./img/cities/mexico-fg-word.jpg);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
