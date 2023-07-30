@@ -14,6 +14,7 @@
   --fifa-dark-green: rgb(27, 69, 60);
   --fifa-logo-dark-blue: rgb(9, 20, 64);
   --fifa-logo-light-blue: rgb(67, 118, 194);
+  --fifa-red: #d40102;
 }
 
 * {
@@ -43,10 +44,7 @@ body {
   width: 100%;
   height: 90px;
   gap: 2rem;
-  background: linear-gradient(
-    var(--fifa-dark-purple),
-    var(--fifa-light-purple)
-  );
+  background: linear-gradient(var(--fifa-dark-purple), var(--fifa-red));
   background-size: cover;
 }
 
@@ -120,7 +118,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 1500px;
   width: 100%;
   height: 500px;
   background: linear-gradient(
@@ -141,6 +138,7 @@ body {
   justify-content: center;
   gap: 2rem;
   padding: 0 8rem;
+  max-width: 1200px;
 }
 
 .container__info {
@@ -193,17 +191,19 @@ body {
 #about-us {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  max-width: 1500px;
-  padding: 1rem 3rem;
-  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 3rem;
+  gap: 5rem;
 }
 
 .about-us__container {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
+  width: 1200px;
+  max-width: 1200px;
 }
 
 .about-us__container__pride {
@@ -211,19 +211,20 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 250px;
+  width: 40%;
 }
 
 .pride_logo {
-  height: 250px;
+  height: 100%;
   border-radius: 1rem;
 }
 
 .about-us__container__info {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   gap: 1rem;
+  width: 60%;
 }
 
 #pool {
