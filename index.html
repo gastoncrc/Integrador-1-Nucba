@@ -40,7 +40,7 @@
         <li><a href="#about-us">FIFA World Cup 2026</a></li>
         <li><a href="#pool">Grupos</a></li>
         <li><a href="#host">Sedes</a></li>
-        <li><a href="#contact-us">Staff</a></li>
+        <li><a href="#contact-us">Contacto</a></li>
         <li>
           <a href="#login"><i class="fa-solid fa-user"></i></a>
         </li>
@@ -65,12 +65,27 @@
           </div>
         </div>
         <div class="hero__sponsors">
-          <img src="./img/adidas.png" alt="adiadas" class="sponsors__logo" />
-          <img src="./img/cocacola.png" alt="adiadas" class="sponsors__logo" />
-          <img src="./img/hyundai.png" alt="adiadas" class="sponsors__logo" />
-          <img src="./img/mcdonalds.png" alt="adiadas" class="sponsors__logo" />
-          <img src="./img/rexona.png" alt="adiadas" class="sponsors__logo" />
-          <img src="./img/bud.png" alt="adiadas" class="sponsors__logo" />
+          <a href="https://www.adidas.com" target="_blank"
+            ><img src="./img/adidas.png" alt="adiadas" class="sponsors__logo"
+          /></a>
+          <a href="https://www.cocacola.com" target="_blank"
+            ><img src="./img/cocacola.png" alt="adiadas" class="sponsors__logo"
+          /></a>
+          <a href="https://www.hyundai.com/es.html" target="_blank"
+            ><img src="./img/hyundai.png" alt="adiadas" class="sponsors__logo"
+          /></a>
+          <a href="https://www.mcdonalds.com" target="_blank"
+            ><img
+              src="./img/mcdonalds.png"
+              alt="adiadas"
+              class="sponsors__logo"
+          /></a>
+          <a href="https://www.rexona.com" target="_blank"
+            ><img src="./img/rexona.png" alt="adiadas" class="sponsors__logo"
+          /></a>
+          <a href="https://www.budweiser.com" target="_blank"
+            ><img src="./img/bud.png" alt="adiadas" class="sponsors__logo"
+          /></a>
         </div>
       </section>
       <section id="about-us">
@@ -1126,7 +1141,93 @@
           </div>
         </div>
       </section>
-      <section id="contact-us"></section>
+      <section id="contact-us">
+        <h2>Contáctanos</h2>
+        <div class="contact-us__container">
+          <img src="./img/fifa-world-cup-2026-logo.png" alt="logo-fifa" />
+          <div class="container__location">
+            <div class="location__main">
+              <div class="main__title">
+                <h3>Sede FIFA</h3>
+                <p>Zürich - Suiza</p>
+              </div>
+              <div class="main__map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2701.564671467406!2d8.571975275439597!3d47.381414403501886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900a081a3f7131%3A0x616dac8153f4ea34!2sF%C3%A9d%C3%A9ration%20Internationale%20de%20Football%20Association!5e0!3m2!1ses-419!2sar!4v1691346305764!5m2!1ses-419!2sar"
+                  width="400"
+                  height="300"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+            <div class="location__contact">
+              <div class="contact__title">
+                <h3>Envianos tu consulta</h3>
+              </div>
+              <form class="contact__form">
+                <div class="form__name">
+                  <label for="name">Nombre y Apellido</label>
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="Escriba su nombre"
+                    required
+                  />
+                </div>
+                <div class="form__gender">
+                  <label for="gender">Sexo</label>
+                  <select id="gender" name="gender" required>
+                    <option value="" selected disabled>Seleccionar..</option>
+                    <option value="male">Masculino</option>
+                    <option value="female">Femenino</option>
+                    <option value="other">Otro</option>
+                  </select>
+                </div>
+                <div class="form__email">
+                  <label for="email">Correo Electrónico</label>
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="Escriba su e-mail"
+                    required
+                  />
+                </div>
+                <div class="form__region">
+                  <label for="region">Región</label>
+                  <select id="region" name="region" required>
+                    <option value="" selected disabled>Seleccionar..</option>
+                    <option value="africa">África</option>
+                    <option value="nt-america">América del Norte</option>
+                    <option value="ce-america">América Central</option>
+                    <option value="st-america">América del Sur</option>
+                    <option value="asia">Asia</option>
+                    <option value="europe">Europa</option>
+                    <option value="oceania">Oceanía</option>
+                  </select>
+                </div>
+                <div class="form__comment">
+                  <label for="comment">Consulta</label>
+                  <textarea
+                    id="comment"
+                    name="comment"
+                    required
+                    cols="50"
+                    rows="5"
+                    placeholder="Escriba aquí su consulta"
+                  ></textarea>
+                </div>
+                <div class="form__button">
+                  <button type="submit">Enviar</button>
+                  <button type="reset">Borrar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
