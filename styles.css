@@ -576,7 +576,7 @@ body {
   /* background-color: #d40102; */
   width: 100%;
   height: 75%;
-  background-color: #d40102;
+  /* background-color: #d40102; */
   align-items: center;
   justify-content: center;
 }
@@ -585,7 +585,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #4376c2;
+  /* background-color: #4376c2; */
   width: 35%;
   gap: 2rem;
   font-size: 30px;
@@ -597,7 +597,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 4rem;
-  background-color: #a1c63f;
+  /* background-color: #a1c63f; */
   /* width: 70%; */
 }
 
@@ -609,7 +609,7 @@ body {
 .footer_copyright {
   display: flex;
   width: 100%;
-  background-color: pink;
+  /* background-color: pink; */
   justify-content: center;
   gap: 2rem;
 }
