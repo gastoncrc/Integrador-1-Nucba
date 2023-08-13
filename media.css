@@ -1,5 +1,28 @@
 /* =============================== 992 PX ============================= */
 @media (max-width: 992px) {
+  .menu-label {
+    display: flex;
+  }
+
+  .navbar__list {
+    position: absolute;
+    flex-direction: column;
+    top: 50px;
+    right: 0%;
+    width: 100%;
+    height: 100vh;
+    gap: 2.5rem;
+    background: linear-gradient(var(--fifa-dark-green), var(--fifa-green));
+  }
+
+  .navbar__list li {
+    font-size: 20px;
+  }
+
+  #menu-icon:checked + .navbar-list {
+    display: flex;
+  }
+
   .hero__container {
     max-width: 992px;
   }

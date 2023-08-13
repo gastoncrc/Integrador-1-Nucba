@@ -63,6 +63,12 @@ body {
   font-size: 10px;
 }
 /* ------------------------------------------------NAVBAR------------------------------------------------------- */
+
+#menu-icon,
+.menu-label {
+  display: none;
+}
+
 .navbar {
   display: flex;
   align-items: center;
@@ -100,6 +106,13 @@ body {
 
 .navbar__list li a {
   color: var(--fontwhite);
+}
+
+.navbar__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .main {
