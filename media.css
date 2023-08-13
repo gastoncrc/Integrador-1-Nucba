@@ -1,0 +1,206 @@
+/* =============================== 992 PX ============================= */
+@media (max-width: 992px) {
+  .hero__container {
+    max-width: 992px;
+  }
+
+  .container__info h1,
+  .container__info h1 span {
+    font-size: 2.5rem;
+  }
+
+  .container__info p {
+    font-size: 1rem;
+  }
+
+  .container__pic img {
+    height: 370px;
+  }
+
+  #about-us {
+    height: auto;
+  }
+
+  .about-us__container {
+    flex-direction: column;
+    max-width: 992px;
+  }
+
+  .about-us__container__pride {
+    width: 100%;
+  }
+
+  .about-us__container__info {
+    width: 100%;
+  }
+
+  .pool__container {
+    max-width: 992px;
+  }
+
+  .host__container {
+    max-width: 992px;
+  }
+
+  .contact-us__container {
+    max-width: 992px;
+  }
+
+  .container__location {
+    padding: 1rem 0.5rem;
+    gap: 1rem;
+  }
+
+  .location__main {
+    padding: 1rem 1rem;
+  }
+
+  .main__map iframe {
+    width: 300px;
+  }
+
+  #comment {
+    width: 100%;
+  }
+
+  .form__button {
+    width: 100%;
+  }
+}
+/* =============================== 768 PX ============================= */
+@media (max-width: 768px) {
+  .hero__container,
+  .about-us__container,
+  .pool__container,
+  .host__container,
+  .contact-us__container {
+    max-width: 768px;
+  }
+
+  .hero__container {
+    gap: 0.5rem;
+  }
+
+  .container__info h1,
+  .container__info h1 span {
+    font-size: 1.9rem;
+  }
+
+  .container__info {
+    height: auto;
+    gap: 1rem;
+    padding: 0 12px;
+  }
+
+  .container__pic img {
+    height: 320px;
+  }
+
+  .hero__sponsors {
+    gap: 1rem;
+  }
+
+  .container__location {
+    flex-direction: column-reverse;
+  }
+
+  .location__main,
+  .location__contact {
+    width: 100%;
+  }
+
+  .contact__form {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .links__fifa {
+    gap: 2em;
+  }
+  .links__nets a {
+    font-size: 1.5rem;
+  }
+}
+/* =============================== 576 PX ============================= */
+@media (max-width: 576px) {
+  .hero__container,
+  .about-us__container,
+  .pool__container,
+  .host__container,
+  .contact-us__container {
+    max-width: 576px;
+  }
+
+  .hero__sponsors {
+    gap: 12px;
+  }
+
+  .sponsors__logo {
+    height: 25px;
+  }
+
+  #about-us {
+    padding: 0;
+  }
+
+  .pride__logo {
+    height: 80%;
+  }
+
+  #pool {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  #host {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  #contact-us {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .location__contact {
+    padding: 1rem;
+  }
+
+  .main__map iframe {
+    width: 250px;
+  }
+
+  #footer {
+    padding: 1rem;
+    gap: 10px;
+  }
+
+  .footer__date img {
+    bottom: 65px;
+  }
+
+  .footer__copyright {
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .links__fifa {
+    gap: 10px;
+  }
+
+  .links__fifa a img {
+    width: 40px;
+  }
+}
+
+/* =============================== 375 PX ============================= */
+@media (max-width: 375px) {
+  .hero__container,
+  .about-us__container,
+  .pool__container,
+  .host__container,
+  .contact-us__container {
+    max-width: 375px;
+  }
+}
