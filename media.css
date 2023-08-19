@@ -20,6 +20,7 @@
   #menu-icon:checked + .navbar__list {
     display: flex;
   }
+
   .navbar__list li {
     font-size: 22px;
   }
@@ -159,6 +160,10 @@
     max-width: 576px;
   }
 
+  .navbar__list li {
+    font-size: 15px;
+  }
+
   .hero__sponsors {
     gap: 12px;
   }
@@ -230,5 +235,9 @@
   .host__container,
   .contact-us__container {
     max-width: 375px;
+  }
+
+  .navbar__list li {
+    font-size: 12px;
   }
 }
