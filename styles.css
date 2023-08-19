@@ -633,7 +633,7 @@ body {
   color: var(--fontwhite);
 }
 
-.links__nets:visited {
+.links__nets a:visited {
   color: var(--fontwhite);
 }
 
