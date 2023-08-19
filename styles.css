@@ -157,6 +157,7 @@ body {
   justify-content: center;
   gap: 2rem;
   max-width: 1200px;
+  padding: 1rem;
 }
 
 .container__info {
@@ -223,6 +224,7 @@ body {
   justify-content: center;
   gap: 2rem;
   max-width: 1200px;
+  padding: 1rem;
 }
 
 .about-us__container__pride {
@@ -244,6 +246,10 @@ body {
   flex-direction: column;
   gap: 1rem;
   width: 50%;
+}
+
+.about-us__container__info p {
+  text-align: justify;
 }
 /* ------------------------------------------------POOL------------------------------------------------------- */
 #pool {
@@ -269,6 +275,7 @@ body {
   gap: 2rem;
   flex-wrap: wrap;
   max-width: 1200px;
+  padding: 1rem;
 }
 
 .pool__container__card {
@@ -364,6 +371,7 @@ body {
   gap: 2.5rem;
   width: 100%;
   max-width: 1200px;
+  padding: 1rem;
 }
 
 .host__container__card {
