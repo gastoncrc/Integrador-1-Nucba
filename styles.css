@@ -251,6 +251,10 @@ body {
 .about-us__container__info p {
   text-align: justify;
 }
+
+.about-us__container__info p span {
+  font-weight: 700;
+}
 /* ------------------------------------------------POOL------------------------------------------------------- */
 #pool {
   display: flex;
@@ -613,10 +617,8 @@ body {
 
 .footer__links {
   display: flex;
-  /* background-color: #d40102; */
   width: 100%;
   height: 75%;
-  /* background-color: #d40102; */
   align-items: center;
   justify-content: center;
 }
@@ -625,10 +627,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: #4376c2; */
   width: 35%;
   gap: 2rem;
   font-size: 30px;
+  color: var(--fontwhite);
+}
+
+.links__nets:visited {
   color: var(--fontwhite);
 }
 
@@ -637,8 +642,6 @@ body {
   align-items: center;
   justify-content: center;
   gap: 4rem;
-  /* background-color: #a1c63f; */
-  /* width: 70%; */
 }
 
 .links__fifa a img {
@@ -649,7 +652,6 @@ body {
 .footer__copyright {
   display: flex;
   width: 100%;
-  /* background-color: pink; */
   justify-content: center;
   gap: 2rem;
 }
