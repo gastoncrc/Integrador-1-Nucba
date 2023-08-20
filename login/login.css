@@ -33,7 +33,7 @@ body {
     var(--fifa-logo-light-blue)
   );
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   background-repeat: no-repeat;
 }
 
