@@ -1,0 +1,38 @@
+/* =============================== 992 PX ============================= */
+@media (max-width: 992px) {
+  #section__image {
+    display: none;
+  }
+
+  #section__login {
+    max-width: 992px;
+    width: 100%;
+  }
+}
+
+/* =============================== 768 PX ============================= */
+@media (max-width: 768px) {
+  #section__login {
+    max-width: 768px;
+  }
+
+  #user,
+  #password {
+    width: 100%;
+  }
+}
+
+/* =============================== 576 PX ============================= */
+@media (max-width: 576px) {
+  #section__login {
+    max-width: 576px;
+  }
+}
+
+/* =============================== 375 PX ============================= */
+@media (max-width: 375px) {
+  #section__login {
+    max-width: 375px;
+    padding: 8px;
+  }
+}
