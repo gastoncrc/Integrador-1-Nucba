@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --navbar-gray: rgb(54, 50, 50);
+  --fontwhite: #f5f4f4;
+  --fifa-dark-purple: #5c1a19;
+  --fifa-light-purple: #a52218;
+  --fifa-lilac: rgb(144, 123, 219);
+  --fifa-blue: rgb(46, 72, 215);
+  --fifa-orange: rgb(201, 68, 33);
+  --fifa-green: #a1c63f;
+  --fifa-violet: rgb(75, 28, 197);
+  --fifa-aqua: rgb(123, 215, 195);
+  --fifa-dark-green: rgb(27, 69, 60);
+  --fifa-logo-dark-blue: rgb(9, 20, 64);
+  --fifa-logo-light-blue: #4376c2;
+  --fifa-red: #d40102;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  /* border: red solid 1px; */
+  font-family: "Poppins", "Montserrat", "sans-serif";
+}
+
+body {
+  background: linear-gradient(
+    var(--fifa-logo-dark-blue),
+    var(--fifa-logo-light-blue)
+  );
+  width: 100%;
+  height: 100vh;
+}
+
+#header-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 90px;
+  gap: 2rem;
+  background: linear-gradient(var(--fifa-dark-purple), var(--fifa-red));
+  /* background-size: cover; */
+}
+
+.header-top__logo {
+  height: 70px;
+}
+
+.header-top__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--fontwhite);
+}
+
+.header-top__info h2 {
+  font-size: 20px;
+}
+
+.header-top__info p {
+  font-size: 10px;
+}
