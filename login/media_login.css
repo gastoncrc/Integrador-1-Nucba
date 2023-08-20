@@ -1,8 +1,8 @@
 /* =============================== 992 PX ============================= */
 @media (max-width: 992px) {
-  body {
-    height: 100vh;
-  }
+  /* body {
+    height: 100;
+  } */
 
   #section__image {
     display: none;
