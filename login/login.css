@@ -46,11 +46,11 @@ body {
 #section__image {
   display: flex;
   width: 70%;
+  overflow: hidden;
 }
 
 #section__image img {
-  width: 100%;
-  object-fit: cover;
+  width: 900px;
 }
 
 #section__login {
