@@ -45,6 +45,7 @@ body {
 
 #section__image {
   display: flex;
+  align-items: center;
   width: 70%;
   overflow: hidden;
 }
