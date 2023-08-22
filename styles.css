@@ -688,7 +688,27 @@ body {
 
 .links__fifa a img {
   width: 50px;
-  filter: grayscale(40%);
+}
+
+.links__asian__color
+/* .links__africa__color,
+.links__uefa__color,
+.links__conmebol__color,
+.links__concacaf__color,
+.links__oceania__color  */ {
+  position: absolute;
+  top: -30;
+  left: 0;
+  opacity: 0;
+}
+
+.links__asian__color:hover,
+.links__africa__color:hover,
+.links__uefa__color:hover,
+.links__conmebol__color:hover,
+.links__concacaf__color:hover,
+.links__oceania__color:hover {
+  opacity: 1;
 }
 
 .footer__copyright {
@@ -703,6 +723,7 @@ body {
   color: var(--fontwhite);
 }
 
-.links__nets a:visited {
+.nets__icon:visited {
   color: var(--fontwhite);
+  border: #d40102 solid;
 }
