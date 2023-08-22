@@ -723,7 +723,7 @@ body {
   color: var(--fontwhite);
 }
 
-.nets__icon:visited {
+.links__nets a {
   color: var(--fontwhite);
-  border: #d40102 solid;
+  font-size: 500px;
 }
