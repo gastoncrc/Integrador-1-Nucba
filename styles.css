@@ -23,7 +23,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  /* border: red solid 1px; */
+  border: red solid 1px;
   font-family: "Poppins", "Montserrat", "sans-serif";
 }
 
@@ -175,12 +175,16 @@ body {
   padding: 0 1rem;
 }
 
-.container__info h1 {
+.container__cup-left {
+  display: none;
+}
+
+.container__info__mobile h1 {
   font-size: 3rem;
   color: var(--fontwhite);
 }
 
-.container__info h1 span {
+.container__info__mobile h1 span {
   font-size: 3.5rem;
   display: block;
 }
@@ -197,7 +201,7 @@ body {
   width: 25%;
 }
 
-.container__pic img {
+.container__cup-right {
   height: 400px;
 }
 
@@ -725,5 +729,4 @@ body {
 
 .links__nets a {
   color: var(--fontwhite);
-  font-size: 500px;
 }

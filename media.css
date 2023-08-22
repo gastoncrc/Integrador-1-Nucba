@@ -164,6 +164,41 @@
     font-size: 15px;
   }
 
+  .container__pic {
+    display: none;
+  }
+
+  .container__info {
+    margin: auto 0;
+    width: 100%;
+  }
+
+  .container__info__mobile {
+    display: flex;
+    gap: 2rem;
+    padding: 0 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container__info__mobile {
+    width: 340px;
+  }
+
+  .container__info__mobile h1 {
+    font-size: 20px;
+  }
+
+  .container__info__mobile h1 span {
+    display: block;
+    font-size: 20px;
+  }
+
+  .container__cup-left {
+    display: flex;
+    height: 150px;
+  }
+
   .hero__sponsors {
     gap: 12px;
   }
@@ -240,4 +275,6 @@
   .navbar__list li {
     font-size: 12px;
   }
+  .pride__logo {
+width: 300px;
 }
