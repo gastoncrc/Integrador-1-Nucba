@@ -254,11 +254,11 @@
   }
 
   .links__fifa {
-    gap: 10px;
+    gap: 1.5rem;
   }
 
   .links__fifa a img {
-    width: 40px;
+    width: 35px;
   }
 }
 
