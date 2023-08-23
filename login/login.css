@@ -69,6 +69,12 @@ body {
   width: 70px;
 }
 
+#section__login img:hover {
+  width: 70px;
+  filter: contrast(180%);
+  transition: ease-in-out 0.3s;
+}
+
 .login__container h2 {
   font-size: 2.5rem;
   color: var(--fontwhite);
@@ -136,6 +142,7 @@ body {
 .button__btn:hover {
   background-color: var(--fifa-logo-dark-blue);
   color: var(--fontwhite);
+  transition: ease-in-out 0.3s;
 }
 
 .bottom__registrer p {
