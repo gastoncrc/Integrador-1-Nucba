@@ -78,7 +78,6 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0 1rem;
-  /* width: 100%; */
   height: 50px;
   /* background: var(--navbar-gray); */
   background: linear-gradient(var(--fifa-green), var(--fifa-dark-green));
@@ -716,7 +715,7 @@ body {
   top: 0;
   left: 0;
   opacity: 1;
-  transition: opacity 0.5s linear;
+  transition: 0.5s linear;
 }
 
 img.links__asian__color,
