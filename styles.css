@@ -171,9 +171,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 75%;
-  /* height: 450px; */
   gap: 3rem;
-  padding: 0 1rem;
 }
 
 .container__cup-left {
@@ -377,7 +375,6 @@ body {
   padding: 4rem 0;
   gap: 3rem;
   /* background: #571e1e; */
-  /* height: 1000px; */
 }
 
 #host h2 {
@@ -388,7 +385,6 @@ body {
 .host__container {
   display: flex;
   flex-wrap: wrap;
-  /* align-items: center; */
   justify-content: center;
   gap: 2.5rem;
   width: 100%;
@@ -456,7 +452,6 @@ body {
   display: none;
   flex-direction: column;
   position: relative;
-  /* top: 250px; */
   align-items: center;
   justify-content: center;
   width: 100%;

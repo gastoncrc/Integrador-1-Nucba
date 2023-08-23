@@ -118,7 +118,6 @@
   .container__info {
     height: auto;
     gap: 1rem;
-    padding: 0 12px;
   }
 
   .container__pic img {
@@ -169,14 +168,17 @@
   }
 
   .container__info {
-    margin: auto 0;
     width: 100%;
+  }
+
+  .container__info p {
+    font-size: 14px;
   }
 
   .container__info__mobile {
     display: flex;
     gap: 2rem;
-    padding: 0 3rem;
+    padding: 0 2rem;
     justify-content: center;
     align-items: center;
   }
@@ -212,7 +214,7 @@
   }
 
   .pride__logo {
-    height: 80%;
+    height: 75%;
   }
 
   #pool {
