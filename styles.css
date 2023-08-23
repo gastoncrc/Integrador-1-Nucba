@@ -23,7 +23,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  border: red solid 1px;
+  /* border: red solid 1px; */
   font-family: "Poppins", "Montserrat", "sans-serif";
 }
 
@@ -690,28 +690,52 @@ body {
   top: -30px;
 }
 
+.links__fifa a {
+  position: relative;
+  display: inline-block;
+}
+
 .links__fifa a img {
   width: 50px;
 }
 
-.links__asian__color
-/* .links__africa__color,
-.links__uefa__color,
-.links__conmebol__color,
-.links__concacaf__color,
-.links__oceania__color  */ {
+.links__asian__white,
+.links__africa__white,
+.links__uefa__white,
+.links__conmebol__white,
+.links__concacaf__white,
+.links__oceania__white {
   position: absolute;
-  top: -30;
+  top: 0;
   left: 0;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+img.links__asian__color,
+img.links__africa__color,
+img.links__euro__color,
+img.links__conmebol__color,
+img.links__concacaf__color,
+img.links__oceania__color {
   opacity: 0;
 }
 
-.links__asian__color:hover,
-.links__africa__color:hover,
-.links__uefa__color:hover,
-.links__conmebol__color:hover,
-.links__concacaf__color:hover,
-.links__oceania__color:hover {
+.links__fifa a:hover img.links__asian__white,
+.links__fifa a:hover img.links__africa__white,
+.links__fifa a:hover img.links__uefa__white,
+.links__fifa a:hover img.links__conmebol__white,
+.links__fifa a:hover img.links__concacaf__white,
+.links__fifa a:hover img.links__oceania__white {
+  opacity: 0;
+}
+
+.links__fifa a:hover img.links__asian__color,
+.links__fifa a:hover img.links__africa__color,
+.links__fifa a:hover img.links__euro__color,
+.links__fifa a:hover img.links__conmebol__color,
+.links__fifa a:hover img.links__concacaf__color,
+.links__fifa a:hover img.links__oceania__color {
   opacity: 1;
 }
 
