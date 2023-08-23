@@ -281,3 +281,14 @@
     width: 300px;
   }
 }
+
+/* =============================== 250 PX ============================= */
+@media (max-width: 250px) {
+  .hero__container,
+  .about-us__container,
+  .pool__container,
+  .host__container,
+  .contact-us__container {
+    max-width: 375px;
+  }
+}

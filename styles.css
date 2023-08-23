@@ -23,7 +23,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  /* border: red solid 1px; */
+  border: red solid 1px;
   font-family: "Poppins", "Montserrat", "sans-serif";
 }
 
@@ -146,7 +146,6 @@ body {
     var(--fifa-logo-dark-blue),
     var(--fifa-logo-light-blue)
   );
-  padding: 2rem 0;
   gap: 2rem;
   height: 100vh;
 }
