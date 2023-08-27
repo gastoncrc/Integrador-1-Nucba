@@ -222,11 +222,11 @@
     gap: 1rem;
   }
 
-  .pool__container__card {
-    width: 90%;
+  .data__team ul li {
+    font-size: 13px;
   }
 
-  .data__team ul li {
+  .data__stats {
     font-size: 13px;
   }
 
@@ -245,6 +245,16 @@
 
   .host__card__info {
     width: 90%;
+  }
+
+  .info__items h4 {
+    font-size: 12px;
+    max-width: 70px;
+    width: 50%;
+  }
+
+  .info__items__list {
+    font-size: 11px;
   }
 
   #contact-us {
@@ -299,6 +309,10 @@
     font-size: 12px;
   }
   .pride__logo {
-    width: 300px;
+    width: 270px;
+  }
+
+  .host__card__name h3 {
+    font-size: 5rem;
   }
 }

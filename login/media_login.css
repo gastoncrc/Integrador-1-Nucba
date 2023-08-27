@@ -32,6 +32,10 @@
   #section__login {
     max-width: 576px;
   }
+
+  .bottom__registrer p {
+    font-size: 12px;
+  }
 }
 
 /* =============================== 325 PX ============================= */
