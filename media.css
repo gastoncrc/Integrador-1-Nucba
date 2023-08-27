@@ -160,7 +160,7 @@
   }
 
   .navbar__list li {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .container__pic {
@@ -184,7 +184,7 @@
   }
 
   .container__info__mobile {
-    width: 340px;
+    width: 290px;
   }
 
   .container__info__mobile h1 {
@@ -202,7 +202,7 @@
   }
 
   .hero__sponsors {
-    gap: 12px;
+    gap: 5px;
   }
 
   .sponsors__logo {
@@ -214,7 +214,7 @@
   }
 
   .pride__logo {
-    height: 75%;
+    height: 65%;
   }
 
   #pool {
@@ -222,9 +222,29 @@
     gap: 1rem;
   }
 
+  .pool__container__card {
+    width: 90%;
+  }
+
+  .data__team ul li {
+    font-size: 13px;
+  }
+
   #host {
     padding: 1rem;
     gap: 1rem;
+  }
+
+  .host__card__name {
+    width: 90%;
+  }
+
+  .host__card__name h3 {
+    font-size: 6rem;
+  }
+
+  .host__card__info {
+    width: 90%;
   }
 
   #contact-us {
@@ -237,7 +257,7 @@
   }
 
   .main__map iframe {
-    width: 250px;
+    width: 220px;
   }
 
   #footer {
@@ -250,28 +270,29 @@
   }
 
   .footer__copyright {
+    font-size: 12px;
     flex-direction: column;
     align-items: center;
     gap: 3px;
   }
 
   .links__fifa {
-    gap: 1.5rem;
+    gap: 1rem;
   }
 
   .links__fifa a img {
-    width: 35px;
+    width: 25px;
   }
 }
 
-/* =============================== 375 PX ============================= */
-@media (max-width: 375px) {
+/* =============================== 325 PX ============================= */
+@media (max-width: 325px) {
   .hero__container,
   .about-us__container,
   .pool__container,
   .host__container,
   .contact-us__container {
-    max-width: 375px;
+    max-width: 325px;
   }
 
   .navbar__list li {
@@ -279,16 +300,5 @@
   }
   .pride__logo {
     width: 300px;
-  }
-}
-
-/* =============================== 250 PX ============================= */
-@media (max-width: 250px) {
-  .hero__container,
-  .about-us__container,
-  .pool__container,
-  .host__container,
-  .contact-us__container {
-    max-width: 375px;
   }
 }

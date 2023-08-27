@@ -43,6 +43,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
+  overflow: hidden;
 }
 
 #section__image {
@@ -50,11 +52,12 @@ body {
   align-items: center;
   width: 70%;
   overflow: hidden;
+  height: 100%;
 }
 
 #section__image img {
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 
 #section__login {
@@ -69,11 +72,11 @@ body {
 }
 
 #section__login img {
-  width: 70px;
+  width: 50px;
 }
 
 #section__login img:hover {
-  width: 70px;
+  width: 50px;
   filter: contrast(180%);
   transition: ease-in-out 0.3s;
 }
@@ -89,7 +92,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  gap: 2rem;
+  gap: 1rem;
   /* background-color: #d40101ae; */
 }
 
